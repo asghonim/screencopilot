@@ -1,0 +1,64 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+
+# Ignore screenshots
+screenshot_*.png
+
+# Ignore other temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+
+# Ignore IDE-specific files
+.idea/
+*.code-workspace
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore compiled files
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.pri
+*.prifix
+*.resjson
+*.resources.dll
+
+# Ignore runtime files
+*.runtimeconfig.json
+*.deps.json
+*.runtimeconfig.dev.json
+
+# Ignore lock files
+project.lock.json
+project.fragment.lock.json
+
+# Ignore generated files
+*.g.cs
+*.g.i.cs
+*.generated.cs
+*.AssemblyInfo.cs
+*.AssemblyAttributes.cs
+
+# Ignore ref and refint folders
+ref/
+refint/
